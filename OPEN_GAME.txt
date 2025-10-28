@@ -1,0 +1,47 @@
+HOW TO OPEN AND PLAY THE SUPER MARIO CLONE GAME
+
+EASY METHOD (Windows):
+1. Double-click on "launcher.html" - this will open in your default web browser
+2. Click the "Play Game" button
+3. Use arrow keys to play:
+   - Left/Right Arrow: Move
+   - Up Arrow: Jump
+
+ALTERNATIVE METHOD:
+1. Open your web browser (Chrome, Firefox, Edge, etc.)
+2. Drag and drop the "index.html" file into the browser window
+   OR
+   Click "File" -> "Open File" and select "index.html"
+
+GAME CONTROLS:
+- Left Arrow Key: Move Mario left
+- Right Arrow Key: Move Mario right
+- Up Arrow Key: Make Mario jump
+
+GAME OBJECTIVE:
+- Collect all coins for points
+- Jump on enemies to defeat them
+- Avoid falling off platforms
+- Reach the flag to complete the level
+
+FILES IN THIS FOLDER:
+- index.html: Main game file
+- launcher.html: Game launcher with instructions
+- script.js: Game logic and code
+- style.css: Game styling
+- README.md: Technical details
+- HOW_TO_PLAY.txt: Game instructions
+- OPEN_GAME.txt: This file
+- launch_game.bat: Windows batch file (may not work on all systems)
+- manifest.json: PWA manifest file
+- sw.js: Service worker for offline play
+- icon.js: Icon generator script
+
+TROUBLESHOOTING:
+If the game doesn't work:
+1. Make sure you're using a modern web browser
+2. Check that JavaScript is enabled in your browser
+3. Try refreshing the page
+4. If sound doesn't work, check your browser/audio settings
+
+Enjoy the game!

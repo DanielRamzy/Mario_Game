@@ -1,0 +1,16 @@
+{
+  "name": "Super Mario Clone",
+  "short_name": "Mario Clone",
+  "description": "A simple HTML5 Canvas platformer game inspired by Super Mario Bros",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#87CEEB",
+  "theme_color": "#E52521",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Mario Clone Launcher</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+            margin: 0;
+            background-attachment: fixed;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            max-width: 600px;
+            margin: 20px;
+        }
+        h1 {
+            color: #E52521;
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .btn {
+            background: linear-gradient(to bottom, #E52521, #C11717);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .btn:active {
+            transform: translateY(1px);
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .features {
+            text-align: left;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f0f8ff;
+            border-radius: 10px;
+        }
+        .features h2 {
+            color: #E52521;
+            margin-top: 0;
+        }
+        .features ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+        .features li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Super Mario Clone</h1>
+        
+        <div class="features">
+            <h2>About This Game</h2>
+            <p>This is a simplified clone of the classic Super Mario platformer game built with HTML5 Canvas and JavaScript.</p>
+            
+            <h2>Features</h2>
+            <ul>
+                <li>Classic Mario-style platformer gameplay</li>
+                <li>Collect coins for points</li>
+                <li>Avoid or jump on enemies</li>
+                <li>Reach the flag to complete the level</li>
+                <li>Multiple platforms and pipes to navigate</li>
+            </ul>
+        </div>
+        
+        <p><strong>Controls:</strong><br>
+        ← → Arrow Keys: Move Left/Right<br>
+        ↑ Arrow Key: Jump</p>
+        
+        <button class="btn" onclick="window.open('index.html', '_blank')">Play Game</button>
+        
+        <p style="margin-top: 20px; font-size: 14px; color: #666;">
+            Tip: Jump on enemies to defeat them and collect all coins for a higher score!
+        </p>
+        
+        <p style="margin-top: 15px;">
+            <a href="HOW_TO_PLAY.txt" target="_blank" style="color: #1E90FF; text-decoration: none;">Click here for detailed instructions</a>
+        </p>
+    </div>
+</body>
+</html>
