@@ -622,7 +622,7 @@ function gameLoop() {
         ctx.fillStyle = '#000000';
         ctx.font = '40px Arial';
         ctx.textAlign = 'center';
-        ctx.fillText('Bravo Davdovy!', canvas.width / 2, canvas.height / 2);
+        ctx.fillText('Bravoo!', canvas.width / 2, canvas.height / 2);
         ctx.font = '20px Arial';
         ctx.fillText('Final Score: ' + score, canvas.width / 2, canvas.height / 2 + 40);
     }
